@@ -1,0 +1,163 @@
+:root{
+  --meta-navy:#071a49;--meta-blue:#087ff5;--meta-blue-2:#0d73e8;--meta-light:#eaf5ff;--meta-text:#365a91;--meta-border:#d9e7f5;--meta-white:#fff;--meta-shadow:0 18px 50px rgba(7,26,73,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Inter,Arial,sans-serif;color:var(--meta-navy);background:#fff;overflow-x:hidden}a{text-decoration:none;color:inherit}button,input,textarea,select{font:inherit}img,video{max-width:100%;display:block}.meta-site-header{height:90px;background:#fff;position:relative;z-index:20;box-shadow:0 1px 12px rgba(7,26,73,.05)}.meta-header-inner{max-width:1650px;height:100%;margin:auto;padding:0 42px;display:flex;align-items:center;justify-content:space-between;gap:25px}.meta-brand img{width:200px;height:auto}.meta-header-actions{display:flex;align-items:center;gap:22px}.meta-header-phone,.meta-header-quote{display:flex;align-items:center;justify-content:center;gap:12px;border-radius:40px;font-weight:700}.meta-header-phone{background:#eff7ff;padding:15px 26px;color:var(--meta-navy)}.meta-header-phone i{color:var(--meta-blue)}.meta-header-quote{background:var(--meta-blue);color:#fff;padding:17px 30px;min-width:230px;transition:.25s}.meta-header-quote:hover{background:var(--meta-navy)}
+.meta-hero-section{padding:30px 0px;position:relative;min-height:500px;background:url('assets/hero-bg.png') center/cover no-repeat;overflow:hidden}.meta-hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(244,250,255,.96) 0%,rgba(240,249,255,.82) 45%,rgba(240,249,255,.28) 100%)}.meta-hero-container{position:relative;z-index:1;max-width:1650px;margin:auto;padding:48px 42px 40px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(430px,.92fr);gap:46px;align-items:center}.meta-hero-copy{padding-top:4px}.meta-hero-badge,.meta-action-badge{display:inline-flex;align-items:center;gap:10px;border-radius:40px;background:#e0f0ff;color:var(--meta-blue);font-weight:800;padding:12px 18px;font-size:13px}.meta-hero-copy h1{font-size:clamp(46px,4.35vw,70px);line-height:.98;letter-spacing:-2.8px;margin:26px 0 22px;font-weight:900}.meta-hero-copy h1 span{color:var(--meta-blue)}.meta-hero-copy>p{max-width:780px;color:#315f96;font-size:16px;line-height:1.55}.meta-hero-buttons{display:flex;gap:25px;margin-top:25px;flex-wrap:wrap}.meta-hero-call,.meta-hero-wa{display:inline-flex;align-items:center;gap:12px;border-radius:50px;padding:17px 30px;font-weight:800;font-size:15px;transition:.25s}.meta-hero-call{background:var(--meta-blue);color:#fff}.meta-hero-wa{background:var(--meta-navy);color:#fff}.meta-hero-call:hover{background:var(--meta-navy)}.meta-hero-wa:hover{background:var(--meta-blue)}.meta-hero-stats{margin-top:27px;background:rgba(255,255,255,.84);backdrop-filter:blur(8px);border-radius:18px;padding:18px 12px;display:grid;grid-template-columns:repeat(4,1fr);max-width:1050px;box-shadow:0 10px 35px rgba(7,26,73,.08)}.meta-hero-stats div{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border-right:1px solid #cfe0ef}.meta-hero-stats div:last-child{border:0}.meta-hero-stats i{font-size:27px;color:var(--meta-blue);margin-bottom:3px}.meta-hero-stats strong{font-size:23px}.meta-hero-stats span{font-size:13px;color:#315f96}.meta-hero-form-wrap{display:flex;justify-content:flex-end}
+.meta-hero-form{
+    width:100%;
+    max-width:540px;
+    background:rgba(255,255,255,.96);
+    border:1px solid rgba(255,255,255,.7);
+    border-radius:17px;
+    padding:23px;
+    box-shadow:0 20px 60px rgba(7,26,73,.17);
+}.meta-form-kicker{color:var(--meta-blue);font-size:15px;font-weight:900}.meta-hero-form h2{font-size:30px;line-height:1.02;margin:10px 0 12px;letter-spacing:-1.4px}.meta-hero-form h2 span{color:var(--meta-blue)}.meta-hero-form>p{color:#416995;line-height:1.45;margin-bottom:16px;font-size: 13px;}.meta-hero-form label{height:40px;border:2px solid #d4e5f4;border-radius:13px;display:flex;align-items:center;gap:15px;padding:0 17px;margin-top:10px;color:#47719d;background:#fff}.meta-hero-form label>i{font-size:20px;color:#527da7;width:22px;text-align:center}.meta-hero-form input,.meta-hero-form select,.meta-hero-form textarea{border:0;outline:0;width:100%;color:var(--meta-navy);background:transparent}.meta-hero-form input::placeholder,.meta-hero-form textarea::placeholder{color:#5b7ba1}.meta-phone-field{padding-left:13px!important;gap:12px!important}.meta-phone-field>span{font-weight:800;color:var(--meta-navy);padding-right:11px;border-right:1px solid #d7e4ef}.meta-phone-field input{padding-left:0}.meta-hero-form select{appearance:none}.meta-select-arrow{margin-left:auto!important;width:auto!important;font-size:13px!important}.meta-textarea-label{height:62px!important;align-items:flex-start!important;padding-top:15px!important}.meta-textarea-label textarea{resize:none}.meta-form-submit{width:100%;border:0;border-radius:12px;background:var(--meta-blue);color:#fff;padding:15px 18px;margin-top:15px;font-weight:800;font-size:15px;display:flex;align-items:center;justify-content:center;gap:11px;cursor:pointer;transition:.25s}.meta-form-submit:hover{background:var(--meta-navy)}.meta-hero-form small{display:block;text-align:center;color:#47719d;margin-top:14px;font-size:12px}.meta-hero-form small i{margin-right:5px}
+.meta-action-section{position:relative;padding:50px 30px 70px;background:#fbfdff;overflow:hidden}.meta-action-decor{position:absolute;width:220px;height:220px;background:#e8f5ff;border-radius:50%;filter:blur(.2px);opacity:.8}.meta-action-decor-left{left:-120px;top:-110px}.meta-action-decor-right{right:-120px;bottom:-120px}.meta-action-container{max-width:1530px;margin:auto;position:relative}.meta-action-header{text-align:center;max-width:1000px;margin:0 auto 52px}.meta-action-header h2{font-size:clamp(34px,3.1vw,50px);line-height:1.08;letter-spacing:-2px}.meta-action-header h2 span,.meta-action-content h3 span{color:var(--meta-blue)}.meta-action-header p{color:var(--meta-text);font-size:16px;line-height:1.5;margin-top:15px}.meta-action-grid{display:grid;grid-template-columns:minmax(0,1.38fr) minmax(400px,.95fr);gap:55px;align-items:center}.meta-action-video-box{border-radius:21px;overflow:hidden;background:#071a49;box-shadow:var(--meta-shadow);position:relative}.meta-action-video-box video{width:100%;aspect-ratio:16/9;object-fit:cover}.meta-video-note{position:absolute;left:15px;bottom:46px;color:#fff;background:rgba(7,26,73,.75);font-size:11px;padding:5px 9px;border-radius:6px;opacity:.8}.meta-action-badge{background:#fff;border:2px solid #9bceff;padding:10px 19px}.meta-action-content h3{font-size:38px;line-height:1.05;letter-spacing:-1.5px;margin:18px 0}.meta-action-content>p{font-size:16px;line-height:1.5;color:#315f96}.meta-action-features{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:24px}
+.meta-action-features a{min-height:52px; border:1px solid #cce3fa;border-radius:15px;display:flex;align-items:center;gap:12px;padding:7px 12px;color:#0d5fbd;font-weight:600;background:linear-gradient(90deg,#fff,#f6fbff);font-size:12px}.meta-action-features i{font-size:25px;color:var(--meta-blue);width:34px;text-align:center}.meta-action-call{display:inline-flex;align-items:center;gap:13px;margin-top:21px;background:var(--meta-blue);color:#fff;padding:15px 27px;border-radius:50px;font-weight:800;font-size:15px;transition:.25s
+}.meta-action-call:hover{background:var(--meta-navy)}
+.meta-cta-section{position:relative;background:url('assets/video-poster.png') center/cover no-repeat;min-height:260px;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}.meta-cta-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(244,250,255,.96) 0%,rgba(240,249,255,.82) 45%,rgba(240,249,255,.28) 100%)}.meta-cta-inner{position:relative;z-index:1;max-width:1200px;padding:28px 25px}.meta-cta-inner h2{color:#47719d;font-size:38px;line-height:1.08;letter-spacing:-1.2px}.meta-cta-inner h2 span{color:#071a45}.meta-cta-inner p{color:#000;font-size:15px;line-height:1.45;max-width:1060px;margin:12px auto 14px}.meta-cta-phone{display:inline-flex;align-items:center;gap:12px;background:#071a45;color:#fff;border-radius:50px;padding:11px 27px;font-weight:800;font-size:15px}
+.meta-services-section{background:#fff;padding:46px 30px 40px;overflow:hidden}.meta-services-container{max-width:1650px;margin:auto;display:grid;grid-template-columns:minmax(0,.9fr) minmax(690px,1.3fr);gap:40px;align-items:center}.meta-services-left h2{font-size:43px;line-height:1.02;letter-spacing:-2px}.meta-services-left h2 span{color:var(--meta-blue)}.meta-services-left>p{font-size:16px;color:#123e80;line-height:1.48;max-width:820px;margin:18px 0}.meta-services-checks{display:grid;grid-template-columns:1fr 1fr;gap:14px 38px}.meta-services-checks a{display:flex;align-items:center;gap:12px;font-size:15px;color:#0b3982;font-weight:600}.meta-services-checks i{width:30px;height:30px;border-radius:50%;background:var(--meta-blue);color:#fff;display:grid;place-items:center;font-size:13px}.meta-services-cta{display:inline-flex;align-items:center;gap:12px;margin-top:20px;background:var(--meta-blue);color:#fff;padding:15px 25px;border-radius:50px;font-size:15px;font-weight:800;transition:.25s}.meta-services-cta:hover{background:var(--meta-navy)}.meta-services-right{display:flex;align-items:center;justify-content:center;min-width:0}.meta-services-image-link{display:block;width:100%;max-width:760px}.meta-services-image-link img{width:100%;height:auto;display:block;object-fit:contain}.meta-services-image-link:hover{transform:translateY(-2px)}
+.meta-benefits-section{position:relative;background:url('assets/benefits-bg.png') center/cover no-repeat;padding:77px 30px 50px;min-height:500px;overflow:hidden}.meta-benefits-overlay{position:absolute;inset:0;background:rgba(245,251,255,.84)}.meta-benefits-container{position:relative;max-width:1450px;margin:auto}.meta-benefits-header{text-align:center}.meta-benefits-header h2{font-size:43px;line-height:1.08;letter-spacing:-1.7px}.meta-benefits-header h2 span{color:var(--meta-blue)}.meta-benefits-header p{font-size:16px;color:#365a91;line-height:1.45;max-width:1000px;margin:17px auto}.meta-benefits-slider{display:grid;grid-template-columns:repeat(3,1fr);gap:55px;margin-top:38px}.meta-benefit-card{text-align:center;padding:0 25px}.meta-benefit-card>i{font-size:64px;color:var(--meta-blue);height:90px;display:flex;justify-content:center;align-items:center}.meta-benefit-card h3{font-size:25px;margin-top:18px}.meta-benefit-card p{font-size:16px;color:#365a91;line-height:1.45;margin-top:15px}.meta-benefits-phone{display:flex;width:max-content;margin:38px auto 0;align-items:center;gap:10px;background:#173ca5;color:#fff;border-radius:50px;padding:11px 27px;font-size:15px;font-weight:800}.meta-benefits-mobile-controls{display:none}
+.meta-reviews-section{padding:40px 30px 60px;background:#fff}.meta-reviews-container{max-width:1600px;margin:auto}.meta-reviews-header{text-align:center;max-width:1050px;margin:0 auto 50px}.meta-reviews-header h2{font-size:43px;line-height:1.1;letter-spacing:-1.8px}.meta-reviews-header h2 span{color:var(--meta-blue)}.meta-reviews-header p{color:#526f99;font-size:16px;line-height:1.5;margin-top:15px}.meta-reviews-track{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.meta-review-card{border:2px solid #d8e6f3;border-radius:18px;min-height:290px;padding:28px 27px 23px;display:flex;flex-direction:column;box-shadow:0 7px 20px rgba(1, 18, 59, 0.04);background-color:#fbfdff;}.meta-review-stars{color:#ffb400;font-size:20px;letter-spacing:1px}.meta-review-card>p{color:#4b6288;font-size:14px;line-height:1.65;margin-top:16px;display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}.meta-review-user{margin-top:auto;display:flex;align-items:center;gap:12px;padding-top:20px}.meta-review-avatar{width:50px;height:50px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:21px;font-weight:700}.avatar-v{background:#2375df}.avatar-n{background:#20b86c}.avatar-a{background:#ef2d89}.avatar-o{background:#f49a13}.meta-review-info{display:flex;flex-direction:column;gap:4px}.meta-review-info b{font-size:14px}.meta-review-info small{font-size:12px;color:#7891b2}.meta-review-brand{margin-left:auto;font-size:20px;color:#0d6fda;white-space:nowrap;font-weight:700}.meta-review-brand i{font-size:23px}.meta-reviews-mobile-controls{display:none}.meta-reviews-footer{height:50px;background:#071a45;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font-size:14px;padding:0 15px}
+.floating-buttons{position:fixed;right:15px;bottom:20px;z-index:50;display:flex;flex-direction:column;gap:12px}.float-btn{width:50px;height:50px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:20px;box-shadow:0 8px 22px rgba(7,26,73,.22);transition:.25s}.float-btn:hover{transform:translateY(-3px) scale(1.04)}.float-btn.whatsapp{background:#20c76a}.float-btn.call{background:#2577e9}.float-btn.location{background:#ef3d32}
+@media(max-width:1250px){.meta-header-inner{padding:0 24px}.meta-hero-container{grid-template-columns:minmax(0,1.15fr) minmax(390px,.85fr);padding:40px 25px}.meta-hero-copy h1{font-size:54px}.meta-services-container{grid-template-columns:1fr}.meta-services-left{max-width:900px;margin:auto}.meta-services-right{max-width:760px;margin:auto}.meta-action-grid{gap:35px}.meta-action-content h3{font-size:34px}}
+@media(max-width:900px){.meta-site-header{height:76px}.meta-header-inner{padding:0 15px}.meta-brand img{width:210px}.meta-header-phone{display:none}.meta-header-quote{padding:12px 18px;min-width:0;font-size:13px}.meta-hero-container{grid-template-columns:1fr;padding:30px 18px 35px}.meta-hero-copy h1{font-size:48px}.meta-hero-form-wrap{justify-content:center}.meta-hero-form{max-width:680px}.meta-action-section{padding:60px 18px 70px}.meta-action-header{margin-bottom:35px}.meta-action-grid{display:flex;flex-direction:column}.meta-action-content{order:1;width:100%;max-width:700px}.meta-action-video-box{order:2;width:100%;max-width:700px}.meta-action-header h2{font-size:32px}.meta-action-header p{font-size:15px}.meta-cta-inner h2{font-size:32px}.meta-services-section{padding:40px 18px}.meta-services-right{display:flex;justify-content:center;width:100%;max-width:680px}.meta-services-cards{width:100%;max-width:650px}.meta-services-image-link{width:100%;max-width:680px}.meta-services-left h2{font-size:36px}.meta-benefits-section{padding:60px 18px 45px}.meta-benefits-header h2{font-size:34px}.meta-reviews-section{padding:60px 18px}.meta-reviews-header h2{font-size:34px}.meta-reviews-track{grid-template-columns:1fr;overflow:hidden}.meta-review-card{display:none}.meta-review-card:first-child{display:flex;max-width:620px;margin:auto}.meta-reviews-mobile-controls,.meta-benefits-mobile-controls{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:22px}.meta-reviews-arrow,.meta-benefit-arrow{width:42px;height:42px;border-radius:50%;border:1px solid #cfe1f3;background:#fff;color:var(--meta-blue);cursor:pointer}.meta-reviews-mobile-controls span,.meta-benefits-mobile-controls span{font-size:14px;color:#50729d}.meta-benefits-slider{display:block;margin-top:30px;min-height:265px}.meta-benefit-card{display:none}.meta-benefit-card.is-active{display:block}.meta-benefits-phone{margin-top:28px}.meta-reviews-footer{font-size:12px;height:64px;white-space:nowrap}.floating-buttons{right:13px;bottom:14px;gap:8px}.float-btn{width:48px;height:48px;font-size:20px}}
+@media(max-width:560px){.meta-header-quote{font-size:12px;padding:11px 13px}.meta-brand img{width:150px}.meta-hero-section{min-height:0}.meta-hero-container{padding:24px 12px 25px}.meta-hero-badge{font-size:14px;padding:9px 13px}.meta-hero-copy h1{font-size:38px;letter-spacing:-1.3px;margin:18px 0}.meta-hero-copy>p{font-size:15px;line-height:1.55}
+.meta-hero-call,
+.meta-hero-wa{
+    width:auto;
+    flex:1;
+    min-width:0;
+    justify-content:center;
+    white-space:nowrap;
+    padding:13px 10px;
+    font-size:13px;}.meta-hero-buttons{gap:10px}.meta-hero-call,.meta-hero-wa{width:100%;justify-content:center;padding:14px 15px;font-size:14px}.meta-hero-stats{grid-template-columns:repeat(2,1fr);gap:0;padding:8px}.meta-hero-stats div{min-height:85px;border-bottom:1px solid #d4e3f0}.meta-hero-stats div:nth-child(2){border-right:0}.meta-hero-stats div:nth-child(3),.meta-hero-stats div:nth-child(4){border-bottom:0}.meta-hero-stats strong{font-size:23px}.meta-hero-stats span{font-size:12px}.meta-hero-form{padding:19px 13px;border-radius:14px}.meta-hero-form h2{font-size:30px}.meta-form-kicker{font-size:15px}.meta-hero-form label{height:49px;padding:0 12px}.meta-hero-form label>i{font-size:17px}.meta-form-submit{font-size:14px;padding:15px 9px}.meta-action-section{padding:48px 13px 58px}.meta-action-header h2{font-size:28px;letter-spacing:-.6px}.meta-action-header p{font-size:14px}.meta-action-badge{font-size:13px;padding:8px 12px}.meta-action-content h3{font-size:28px;margin:15px 0}.meta-action-content>p{font-size:14px}.meta-action-features{grid-template-columns:1fr;gap:10px}.meta-action-features a{min-height:52px;font-size:13px;border-radius:14px}.meta-action-call{width:100%;justify-content:center;font-size:15px;padding:15px}.meta-video-note{font-size:9px;bottom:38px}.meta-cta-section{min-height:270px}.meta-cta-inner h2{font-size:27px}.meta-cta-inner p{font-size:13px}.meta-cta-phone{font-size:15px;padding:11px 21px}.meta-services-left h2{font-size:29px}.meta-services-left>p{font-size:13px}.meta-services-checks{grid-template-columns:1fr;gap:11px}.meta-services-checks a{font-size:13px}.meta-services-cta{width:100%;justify-content:center;font-size:13px}.meta-services-image-link{width:100%;max-width:680px}.meta-benefits-section{padding:35px 13px 25px;min-height:150px}.meta-benefits-header h2{font-size:28px}.meta-benefits-header p{font-size:14px}.meta-benefit-card>i{font-size:62px;height:75px}.meta-benefit-card h3{font-size:24px;margin-top:10px}.meta-benefit-card p{font-size:14px}.meta-benefits-phone{font-size:15px;padding:11px 23px}.meta-reviews-section{padding:50px 13px 60px}.meta-reviews-header h2{font-size:28px}.meta-reviews-header p{font-size:14px}.meta-review-card{min-height:350px;padding:23px 19px}.meta-review-card>p{font-size:14px}.meta-reviews-footer{font-size:9px}.floating-buttons{right:9px}.float-btn{width:44px;height:44px;font-size:18px}}
+
+
+/* ===== Requested mobile-only refinements ===== */
+
+/* Desktop CTA button hover: only the requested color change. */
+.meta-cta-phone:hover{background:var(--meta-blue)}
+
+/* Services: on mobile, keep heading/content/button first and image below them. */
+@media(max-width:900px){
+  .meta-services-container{
+    display:flex;
+    flex-direction:column;
+  }
+  .meta-services-left{
+    order:1;
+  }
+  .meta-services-right{
+    order:2;
+  }
+
+  /* Reviews: smaller card with navigation arrows on the left/right of the card. */
+  .meta-reviews-track-wrap{
+    position:relative;
+    width:100%;
+    padding:0 36px;
+    touch-action:pan-y;
+  }
+  .meta-reviews-track{
+    width:100%;
+  }
+  .meta-review-card{
+    max-width:none;
+    width:100%;
+    min-height:0;
+    padding:21px 18px 20px;
+  }
+  .meta-review-card>p{
+    font-size:13px;
+    line-height:1.55;
+    margin-top:13px;
+  }
+  .meta-review-user{
+    padding-top:16px;
+  }
+  .meta-review-avatar{
+    width:43px;
+    height:43px;
+    font-size:18px;
+  }
+  .meta-review-info b{
+    font-size:13px;
+  }
+  .meta-review-info small{
+    font-size:10px;
+  }
+
+  .meta-reviews-mobile-controls{
+    position:absolute;
+    inset:50% 0 auto 0;
+    transform:translateY(-50%);
+    width:100%;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:0;
+    pointer-events:none;
+    z-index:3;
+  }
+  .meta-reviews-mobile-controls span{
+    display:none;
+  }
+  .meta-reviews-arrow{
+    width:38px;
+    height:38px;
+    flex:0 0 38px;
+    pointer-events:auto;
+    background:#fff;
+    box-shadow:0 3px 12px rgba(7,26,73,.08);
+  }
+}
+
+/* Keep the mobile review sizing compact on small phones as well. */
+@media(max-width:560px){
+  .meta-reviews-track-wrap{
+    padding:0 31px;
+  }
+  .meta-review-card{
+    padding:19px 16px 18px;
+    border-radius:15px;
+  }
+  .meta-review-card>p{
+    font-size:12px;
+    line-height:1.5;
+  }
+  .meta-review-stars{
+    font-size:17px;
+  }
+  .meta-reviews-arrow{
+    width:34px;
+    height:34px;
+    flex-basis:34px;
+    font-size:12px;
+  }
+}
+
+@media(max-width:900px){
+  .meta-benefits-slider{touch-action:pan-y}
+}
+
+
+/* Added only: make each review card clickable for calling. */
+.meta-review-card{
+  text-decoration:none;
+  color:inherit;
+  cursor:pointer;
+}
+
+/* Added only: gentle continuous floating animation for the Services image. */
+.meta-services-image-link img{
+  animation: metaServicesFloat 3.6s ease-in-out infinite;
+  will-change:transform;
+}
+
+@keyframes metaServicesFloat{
+  0%,100%{transform:translateY(0);}
+  50%{transform:translateY(-10px);}
+}
